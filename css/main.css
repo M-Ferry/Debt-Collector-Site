@@ -69,14 +69,8 @@ nav ul li a {
   font-weight: 400;
   line-height: 75px;           /*****from form*****/
   color: #ffffff;     
-  text-align: center;     
-}
-
-#header span {               /*********Hi!******/
-      font-family: 'Lora', serif;  
-      font-size: 72px;
-      color: #2b2b2b;
-
+  text-align: center;   
+  padding: 70px 0 0 0;  
 }
 
 #header li {
@@ -88,12 +82,11 @@ nav ul li a {
 
 /*******ABOUT********/
 
-
 #about .full-width {
     padding: 20px 0;
 }
 
-#about h2 {                  /*******Jubilee Austen****/
+#about h2 {                  /*******Margaret Ferry****/
   font-family: 'Lora', serif;
   font-size: 36px;
   padding-left: 50px;
@@ -147,7 +140,6 @@ nav ul li a {
 #contact .full-width {       /****full-width page*instructions***website instructions***/
       padding: 80px 0;
 }
-
 
 /* closed up the space between img and #contact-img */
 #contact img#contact-img {     /***image of woman at desk, instructions****/
