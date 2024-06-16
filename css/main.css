@@ -55,7 +55,7 @@ nav ul li {          /*******instructed******/
 
 nav ul li a {
   text-transform: capitalize;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 18px;           /****from form****/
   color: #ffffff;             /******from form*****/
   padding-left: 40px;          /******from form*****/
