@@ -63,11 +63,11 @@ nav ul li a {
 
 #header h2 {
   width:inherit;
-  clear: both;                 /****correct****/
-  font-family: 'Lora', serif;
-  font-size: 60px;                /****from form*****/
+  clear: both;   
+  font-family: "Edu QLD Beginner", cursive;
+  font-optical-sizing: auto;
   font-weight: 400;
-  line-height: 75px;           /*****from form*****/
+  font-size: 60px;                /****from form*****/
   color: #ffffff;     
   text-align: center;   
   padding: 70px 0 0 0;  
@@ -196,3 +196,63 @@ nav ul li a {
 #contact ul img {
     padding-right: 48px;
 }
+
+/*=============PROJECT PAGE==============*/
+
+
+#header-projects  {                                /*******background image****/
+  height: 800px;                          /*****instructions*****/
+  background: url("../img/white-flowing.jpg") no-repeat 0px 0px white;
+  background-size: cover;        /*******instrudor******/
+  background-position: center;   /******instructor*****/
+  }
+
+#header h1 {                       /******M. Ferry******/
+  font-family: 'Lora', serif; /****form***/
+  padding: 15px 0 25px 25px;    /****instructions****/
+  font-weight: normal;        /*****instructions****/
+  /*color: #0f0101;*/           /*****form*****/
+  font-size: 60px;
+}
+
+nav {                 /********nav is instructed***/
+  float: right;
+  padding: 70px 25px;
+}
+
+nav ul li {          /*******instructed******/
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 18px;           /****from form****/
+  /*color: #0f0101;*/             /******from form*****/
+  padding-left: 40px;          /******from form*****/
+}
+
+#header h2 {
+  width:inherit;
+  clear: both;                 /****correct****/
+  font-family: 'Lora', serif;
+  font-size: 60px;                /****from form*****/
+  font-weight: 400;
+  line-height: 75px;           /*****from form*****/
+  /*color: #0f0101;*/     
+  text-align: center;   
+  padding: 70px 0 0 0;  
+}
+
+#header li {
+  font-family: 'Soure Sans Pro', serif;
+  /*color: #0f0101;*/
+  font-size: 18px;
+  word-spacing: 80px;
+}
+
+/*#projects-full-width {
+
+
+}*/
+
