@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;  /*****Type of font for entire site****/
-  color: #ffffff;                       /*******font color for entire site***/
-  background-color: #5F5B5A;       /*****background color****/
+  color: #454535;                      /*******font color for entire site***/
+  background-color: #daa06d;       /*****background color****/
 }
 
 
@@ -31,16 +31,16 @@ body {
 
 #header  {                                /*******background image****/
   height: 800px;                          /*****instructions*****/
-  background: url("../img/black-leaves.jpg") no-repeat 0px 0px white;
+  background: url("../img/white-leaf.jpg") no-repeat 0px 0px white;
   background-size: cover;        /*******instrudor******/
   background-position: center;   /******instructor*****/
   }
 
 #header h1 {                       /******M. Ferry******/
   font-family: 'Lora', serif; /****form***/
-  padding: 15px 0 25px 25px;    /****instructions****/
-  font-weight: normal;        /*****instructions****/
-  color: #ffffff;           /*****form*****/
+  padding: 10px 0 15px 15px;    /****instructions****/
+  font-weight: 500;        /*****instructions****/
+  color: #a52a2a;          /*****form*****/
   font-size: 60px;
 }
 
@@ -56,8 +56,9 @@ nav ul li {          /*******instructed******/
 nav ul li a {
   text-transform: capitalize;
   text-decoration: underline;
-  font-size: 18px;           /****from form****/
-  color: #ffffff;             /******from form*****/
+  
+  font-size: 24px;           /****from form****/
+  color: #a52a2a;           /******from form*****/
   padding-left: 40px;          /******from form*****/
 }
 
@@ -68,14 +69,14 @@ nav ul li a {
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 60px;                /****from form*****/
-  color: #ffffff;     
+  color: #cd7f32;     
   text-align: center;   
   padding: 70px 0 0 0;  
 }
 
 #header li {
   font-family: 'Soure Sans Pro', serif;
-  color: #828282;
+  color: #e5ddcd;
   font-size: 18px;
   word-spacing: 80px;
 }
@@ -84,6 +85,7 @@ nav ul li a {
 
 #about .full-width {
     padding: 20px 0;
+    
 }
 
 #about h2 {                  /*******Margaret Ferry****/
@@ -105,7 +107,7 @@ nav ul li a {
 /******WORK******/
 
 #work {
-    background-color: #4A4948;
+    background-color: #e5ddcd;
     text-align: center;
 }
 
